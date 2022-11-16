@@ -86,7 +86,7 @@ int first_char(char *input, int *i)
 		if (input[*i] == ' ' || input[*i] == '\t')
 			continue;
 
-		if (input[*i] == ';' || input[*i] == '|' || input[*i] == '&'
+		if (input[*i] == ';' || input[*i] == '|' || input[*i] == '&')
 			return (-1);
 
 		break;
